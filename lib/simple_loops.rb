@@ -32,6 +32,7 @@ def output_array(quote)
     puts quote[count]
     count += 1
   end
+  counter 
 end
 
 def return_string_array(array)
