@@ -1,3 +1,4 @@
+request pry
 def loop_message_five_times(message)
   counter = 0
   message = "Hello World."
@@ -32,7 +33,7 @@ def output_array(quote)
     puts quote[count]
     count += 1
   end
-  
+  binding.pry
 end
 
 def return_string_array(array)
