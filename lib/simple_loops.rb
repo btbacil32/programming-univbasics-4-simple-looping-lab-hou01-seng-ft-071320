@@ -34,8 +34,10 @@ def output_array(quote)
   end
   counter = 0
   array = [5,4,3,2,1]
-  
-  
+  while counter < array.length do
+    puts array[counter]
+    counter += 1
+  end
 end
 
 def return_string_array(array)
