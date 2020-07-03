@@ -28,7 +28,7 @@ end
 def output_array(quote)
   count = 0
   quote = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
-  while counter < quote.length do
+  while count < quote.length do
     puts quote[count]
     count += 1
   end
