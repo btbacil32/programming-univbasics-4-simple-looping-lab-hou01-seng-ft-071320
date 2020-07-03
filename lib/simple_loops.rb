@@ -33,6 +33,8 @@ def output_array(quote)
     count += 1
   end
   counter = 0
+  array = [5,4,3,2,1]
+  
   
 end
 
