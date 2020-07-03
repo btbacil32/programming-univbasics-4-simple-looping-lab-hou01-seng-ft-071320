@@ -27,16 +27,11 @@ end
 
 def output_array(quote)
   count = 0
-  quote = ["All great achievements","require time","-Maya Angelou"]
-  while count < quote.length do
+  quote = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
+  while counter < quote.length do
     puts quote[count]
     count += 1
   end
-  counter = 0
-  array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
-  while counter < array.length do
-    puts array[count]
-    counter += 1
 end
 
 def return_string_array(array)
