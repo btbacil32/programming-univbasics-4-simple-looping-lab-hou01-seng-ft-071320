@@ -39,8 +39,10 @@ def output_array(quote)
     counter += 1
 end
 
-
-
+def return_string_array(array)
+  count = 0
+  
+  while count < 
 
 
 
